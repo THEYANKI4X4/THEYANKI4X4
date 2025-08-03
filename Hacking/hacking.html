@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Hacking Ético - Por Jhankiel</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #111;
+      color: #00ff99;
+      line-height: 1.6;
+      padding: 40px;
+      max-width: 960px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #00ffcc;
+      border-bottom: 1px solid #00ff99;
+      padding-bottom: 5px;
+    }
+    a {
+      color: #00ffff;
+    }
+    code {
+      background-color: #222;
+      padding: 4px 8px;
+      border-radius: 5px;
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: square;
+      margin-left: 20px;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    footer {
+      text-align: center;
+      border-top: 1px solid #00ff99;
+      padding-top: 20px;
+      margin-top: 50px;
+    }
+    .hacker-img {
+      width: 400px;
+      margin-top: 10px;
+      border: 2px solid #00ff99;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚡ Blog de Hacking Ético</h1>
+  <p>Explora el mundo del hacking legal: técnicas, herramientas, comandos y consejos para convertirte en un experto en seguridad digital.</p>
+
+  <div class="section">
+    <h2>📚 Historia del Hacking</h2>
+    <p>El hacking empezó como una forma de explorar sistemas y redes. Desde los años 60 con teléfonos (phreaking), hasta hoy en día con sofisticadas pruebas de intrusión en empresas globales.</p>
+    <p>Los hackers se clasifican en:</p>
+    <ul>
+      <li><strong>White Hat</strong>: expertos en seguridad que trabajan legalmente.</li>
+      <li><strong>Black Hat</strong>: infractores que rompen sistemas sin autorización.</li>
+      <li><strong>Gray Hat</strong>: mezclan ambos mundos, a veces sin permiso pero sin fines maliciosos.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔐 ¿Qué es el Hacking Ético?</h2>
+    <p>Consiste en realizar pruebas a sistemas informáticos para detectar vulnerabilidades, siguiendo permisos legales y contratos. Se usa en bancos, empresas, gobiernos, y hasta videojuegos.</p>
+    <p>Un hacker ético debe seguir un protocolo:</p>
+    <ul>
+      <li>Permiso escrito del dueño del sistema.</li>
+      <li>Objetivo claro: ¿qué se va a probar?</li>
+      <li>Informe técnico con hallazgos y recomendaciones.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧰 Principales Herramientas</h2>
+    <p>Software clave para realizar pruebas de penetración:</p>
+    <ul>
+      <li><strong>Nmap</strong>: escaneo de redes y puertos abiertos.</li>
+      <li><strong>Wireshark</strong>: análisis de paquetes y tráfico de red.</li>
+      <li><strong>Metasploit</strong>: framework de explotación de vulnerabilidades.</li>
+      <li><strong>John the Ripper</strong>: rompe contraseñas cifradas.</li>
+      <li><strong>Burp Suite</strong>: pruebas de seguridad en aplicaciones web.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>💻 Comandos útiles en Kali Linux</h2>
+    <p>Los sistemas de pentesting como Kali permiten usar comandos como:</p>
+    <code>nmap -sS 192.168.1.1</code>
+    <code>netdiscover</code>
+    <code>airmon-ng start wlan0</code>
+    <code>sqlmap -u "http://ejemplo.com?id=5" --dbs</code>
+    <code>hydra -l admin -P claves.txt 192.168.1.10 ssh</code>
+    <code>whois dominio.com</code>
+  </div>
+
+  <div class="section">
+    <h2>🧠 Tipos de pruebas de hacking ético</h2>
+    <ul>
+      <li><strong>Reconocimiento pasivo</strong>: obtener información sin interactuar directamente.</li>
+      <li><strong>Reconocimiento activo</strong>: escaneo directo de red/sistema.</li>
+      <li><strong>Explotación</strong>: usar vulnerabilidad para acceder.</li>
+      <li><strong>Post-explotación</strong>: verificar hasta dónde se puede llegar tras tener acceso.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎓 Plataformas para aprender</h2>
+    <p>Puedes practicar y aprender con simulaciones reales en:</p>
+    <ul>
+      <li><a href="https://www.tryhackme.com/" target="_blank">TryHackMe</a></li>
+      <li><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></li>
+      <li><a href="https://academy.hackthebox.com/" target="_blank">HTB Academy</a></li>
+      <li><a href="https://www.cybrary.it/" target="_blank">Cybrary</a></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🛡️ Consejos de seguridad personal</h2>
+    <ul>
+      <li>Usa contraseñas fuertes y únicas.</li>
+      <li>Activa autenticación en dos pasos.</li>
+      <li>No descargues archivos sospechosos.</li>
+      <li>Actualiza tus programas y sistemas.</li>
+      <li>Usa VPN y antivirus confiables.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>© 2025 Blog de Hacking Ético | Para fines educativos</p>
+    <p><strong>CREDITOS DE JHANKIEL</strong></p>
+    <img src="https://images.unsplash.com/photo-1607082350922-e0f7fe9a9838?auto=format&fit=crop&w=600&q=80" alt="Hacker con capucha" class="hacker-img">
+  </footer>
+</body>
+</html>
